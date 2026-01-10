@@ -143,32 +143,32 @@
 
 .sentence-preview.show-correct {
   background: #e7fff7fb;
-  border: 2px solid #00b679fb;
+  border: 2px solid #007a52;
 }
 
 .correct-answer {
-  color: #00b679fb;
+  color: #007a52;
   font-weight: 600;
 }
 
 .correct-answer strong {
-  color: #00b679fb;
-  /* border: #00b679fb 2px solid; */
+  color: #007a52;
+  /* border: #007a52 2px solid; */
 }
 
 /* Estados de feedback */
 .sentence-slot.correct {
-  border: #00b679fb 2px solid;
+  border: #007a52 2px solid;
   background: linear-gradient(135deg, #e7fff7fb 0%, #e7fff7fb 100%);
   transform: scale(1.05);
-  color: #00b679fb;
+  color: #007a52;
 }
 
 .sentence-slot.incorrect {
-  border: #c24f4f 2px solid;
+  border: #a14242 2px solid;
   background: linear-gradient(135deg, #fde4e4 0%, #fde4e4 100%);
   animation: shake 0.5s ease;
-  color: #c24f4f;
+  color: #a14242;
 }
 
 /* Botão de verificação */

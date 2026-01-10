@@ -146,29 +146,29 @@
 
 /* CORRECT - EXATAMENTE IGUAL AO TRANSLATION-INPUT.CORRECT */
 .listening-option.correct {
-  border-color: #00b679fb;
+  border-color: #007a52;
   background: #e7fff7fb;
 }
 
 .listening-option.correct .option-text {
-   color: #00b679fb;
+  color: #007a52;
   font-weight: 600;
 }
 
 /* INCORRECT - EXATAMENTE IGUAL AO TRANSLATION-INPUT.INCORRECT */
 .listening-option.incorrect {
-  border-color: #c24f4f;
+  border-color: #a14242;
   background: #fde4e4;
 }
 
 .listening-option.incorrect .option-text {
-  color: #c24f4f;
+  color: #a14242;
   font-weight: 600;
 }
 
 .option-text {
   flex: 1;
-  font-size: 1.1em;
+  font-size: 1em;
   color: #333;
   font-weight: 500;
 }

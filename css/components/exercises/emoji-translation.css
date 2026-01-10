@@ -73,16 +73,16 @@
 }
 
 .emoji-translation .option.correct {
-  border-color: #00b679fb;
+  border-color: #007a52;
   background: #e7fff7fb;
-  color: #00b679fb;
+  color: #007a52;
   animation: pulseCorrect 0.6s ease;
 }
 
 .emoji-translation .option.incorrect {
-  border-color: #c24f4f;
+  border-color: #a14242;
   background: #fde4e4;
-  color: #c24f4f;
+  color: #a14242;
   animation: shake 0.5s ease;
 }
 

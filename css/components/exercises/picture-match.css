@@ -136,18 +136,18 @@
 /* CORRETO - VERDE */
 .picture-word.correct,
 .picture-image.correct {
-  border-color: #00b679fb;
+  border-color: #007a52;
   background: linear-gradient(135deg, #e7fff7fb 0%, #e7fff7fb 100%);
-  color: #00b679fb;
+  color: #007a52;
   box-shadow: 0 4px 12px rgba(39, 174, 96, 0.15);
 }
 
 /* INCORRETO - VERMELHO */
 .picture-word.incorrect,
 .picture-image.incorrect {
-  border-color: #c24f4f;
+  border-color: #a14242;
   background: linear-gradient(135deg, #fde4e4 0%, #fde4e4 100%);
-  color: #c24f4f;
+  color: #a14242;
   box-shadow: 0 4px 12px rgba(231, 76, 60, 0.15);
 }
 

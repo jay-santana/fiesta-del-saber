@@ -1,15 +1,15 @@
 const LISTENING_TYPE = {
   id: "listening",
-  name: "Exercício de Audição",
+  name: "Ejercicio de Audición",
   image: "...",
   objects: [
-    // === FÁCIL (Nível 1-2) ===
+    // === FÁCIL (Nivel 1-2) ===
     {
       audio: "../assets/components/exercise-audio/audio-1.mp3",
       options: [
-        { text: "Bom dia", correct: true },
-        { text: "Boa noite", correct: false },
-        { text: "Boa tarde", correct: false },
+        { text: "Buenos días", correct: true },
+        { text: "Buenas noches", correct: false },
+        { text: "Buenas tardes", correct: false },
       ],
       difficulty: "easy",
       island: "numbers",
@@ -17,9 +17,9 @@ const LISTENING_TYPE = {
     {
       audio: "../assets/components/exercise-audio/audio-2.mp3",
       options: [
-        { text: "Eu estou cansado", correct: false },
-        { text: "Eu estou com fome", correct: true },
-        { text: "Eu estou feliz", correct: false },
+        { text: "Yo estoy cansado", correct: false },
+        { text: "Yo tengo hambre", correct: true },
+        { text: "Yo estoy feliz", correct: false },
       ],
       difficulty: "easy",
       island: "numbers",
@@ -27,9 +27,9 @@ const LISTENING_TYPE = {
     {
       audio: "../assets/components/exercise-audio/audio-3.mp3",
       options: [
-        { text: "Qual é seu nome?", correct: false },
-        { text: "Como você está?", correct: true },
-        { text: "Onde você mora?", correct: false },
+        { text: "¿Cuál es tu nombre?", correct: false },
+        { text: "¿Cómo estás?", correct: true },
+        { text: "¿Dónde vives?", correct: false },
       ],
       difficulty: "easy",
       island: "numbers",
@@ -37,9 +37,9 @@ const LISTENING_TYPE = {
     {
       audio: "../assets/components/exercise-audio/audio-4.mp3",
       options: [
-        { text: "Eu tenho dois irmãos", correct: false },
-        { text: "Eu tenho um cachorro", correct: true },
-        { text: "Eu gosto de maçãs", correct: false },
+        { text: "Yo tengo dos hermanos", correct: false },
+        { text: "Yo tengo un perro", correct: true },
+        { text: "Me gustan las manzanas", correct: false },
       ],
       difficulty: "easy",
       island: "numbers",
@@ -47,21 +47,21 @@ const LISTENING_TYPE = {
     {
       audio: "../assets/components/exercise-audio/audio-5.mp3",
       options: [
-        { text: "Eu sou estudante", correct: false },
-        { text: "Eu trabalho aqui", correct: false },
-        { text: "Eu moro no Brasil", correct: true },
+        { text: "Yo soy estudiante", correct: false },
+        { text: "Yo trabajo aquí", correct: false },
+        { text: "Yo vivo en Brasil", correct: true },
       ],
       difficulty: "easy",
       island: "verbs",
     },
 
-    // === INTERMEDIÁRIO (Nível 3-4) ===
+    // === INTERMEDIO (Nivel 3-4) ===
     {
       audio: "../assets/components/exercise-audio/audio-6.mp3",
       options: [
-        { text: "Eu assisto TV", correct: false },
-        { text: "Eu gosto de jogar futebol", correct: true },
-        { text: "Eu leio livros", correct: false },
+        { text: "Yo veo la televisión", correct: false },
+        { text: "Me gusta jugar fútbol", correct: true },
+        { text: "Yo leo libros", correct: false },
       ],
       difficulty: "medium",
       island: "verbs",
@@ -69,9 +69,9 @@ const LISTENING_TYPE = {
     {
       audio: "../assets/components/exercise-audio/audio-7.mp3",
       options: [
-        { text: "Ele está estudando inglês", correct: true },
-        { text: "Ela está cozinhando", correct: false },
-        { text: "Eles estão trabalhando", correct: false },
+        { text: "El profesor está enseñando un nuevo idioma.", correct: true },
+        { text: "Ella está cocinando", correct: false },
+        { text: "Ellos están trabajando", correct: false },
       ],
       difficulty: "medium",
       island: "verbs",
@@ -79,9 +79,9 @@ const LISTENING_TYPE = {
     {
       audio: "../assets/components/exercise-audio/audio-8.mp3",
       options: [
-        { text: "Nós vamos ao cinema", correct: true },
-        { text: "Nós vamos ao shopping", correct: false },
-        { text: "Nós vamos à praia amanhã", correct: false },
+        { text: "Nosotros vamos al cine", correct: true },
+        { text: "Nosotros vamos al centro comercial", correct: false },
+        { text: "Nosotros vamos a la playa mañana", correct: false },
       ],
       difficulty: "medium",
       island: "verbs",
@@ -89,9 +89,9 @@ const LISTENING_TYPE = {
     {
       audio: "../assets/components/exercise-audio/audio-9.mp3",
       options: [
-        { text: "Está chovendo", correct: false },
-        { text: "O tempo está muito quente", correct: true },
-        { text: "Está frio", correct: false },
+        { text: "Está lloviendo", correct: false },
+        { text: "Hace mucho calor", correct: true },
+        { text: "Hace frío", correct: false },
       ],
       difficulty: "medium",
       island: "verbs",
@@ -99,24 +99,24 @@ const LISTENING_TYPE = {
     {
       audio: "../assets/components/exercise-audio/audio-10.mp3",
       options: [
-        { text: "Eu preciso de ajuda", correct: true },
-        { text: "Eu estou perdido", correct: false },
-        { text: "Eu quero água", correct: false },
+        { text: "Yo necesito ayuda", correct: true },
+        { text: "Yo estoy perdido", correct: false },
+        { text: "Yo quiero agua", correct: false },
       ],
       difficulty: "medium",
       island: "verbs",
     },
 
-    // === DIFÍCIL (Nível 5-6) ===
+    // === DIFÍCIL (Nivel 5-6) ===
     {
       audio: "../assets/components/exercise-audio/audio-11.mp3",
       options: [
-        { text: "Ele é professor em uma escola", correct: true },
+        { text: "Ella es profesora en una escuela.", correct: true },
         {
-          text: "Ela trabalha como médica em um hospital grande",
+          text: "Ella trabaja como médica en un hospital grande",
           correct: false,
         },
-        { text: "Eu sou engenheiro", correct: false },
+        { text: "Yo soy ingeniero", correct: false },
       ],
       difficulty: "hard",
       island: "verbs",
@@ -124,10 +124,10 @@ const LISTENING_TYPE = {
     {
       audio: "../assets/components/exercise-audio/audio-12.mp3",
       options: [
-        { text: "Eles vão visitar a família", correct: false },
-        { text: "Você vai estudar mais", correct: false },
+        { text: "Ellos van a visitar la familia", correct: false },
+        { text: "Tú vas a estudiar más", correct: false },
         {
-          text: "Nós planejamos viajar para a Europa no próximo verão",
+          text: "Nosotros planeamos viajar a Europa el próximo verano",
           correct: true,
         },
       ],
@@ -137,12 +137,12 @@ const LISTENING_TYPE = {
     {
       audio: "../assets/components/exercise-audio/audio-13.mp3",
       options: [
-        { text: "Estude bastante para a prova", correct: false },
+        { text: "Estudia mucho para el examen", correct: false },
         {
-          text: "Se você praticar todos os dias, vai melhorar rápido",
+          text: "Si practicas todos los días, mejorarás rápido",
           correct: true,
         },
-        { text: "A prática leva à perfeição", correct: false },
+        { text: "La práctica hace al maestro", correct: false },
       ],
       difficulty: "hard",
       island: "verbs",
@@ -150,10 +150,10 @@ const LISTENING_TYPE = {
     {
       audio: "../assets/components/exercise-audio/audio-14.mp3",
       options: [
-        { text: "Vamos almoçar juntos", correct: false },
-        { text: "A comida aqui é muito boa", correct: true },
+        { text: "Vamos a almorzar juntos", correct: false },
+        { text: "La comida aquí es muy buena", correct: true },
         {
-          text: "O restaurante que recomendamos fica perto da estação",
+          text: "El restaurante que recomendamos está cerca de la estación",
           correct: false,
         },
       ],
@@ -163,12 +163,12 @@ const LISTENING_TYPE = {
     {
       audio: "../assets/components/exercise-audio/audio-15.mp3",
       options: [
-        { text: "Precisamos trabalhar mais", correct: false },
+        { text: "Necesitamos trabajar más", correct: false },
         {
-          text: "Depois de terminar o projeto, podemos descansar um pouco",
+          text: "Después de terminar el proyecto, podemos descansar un poco",
           correct: true,
         },
-        { text: "O trabalho está difícil", correct: false },
+        { text: "El trabajo está difícil", correct: false },
       ],
       difficulty: "hard",
       island: "verbs",

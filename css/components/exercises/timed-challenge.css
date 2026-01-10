@@ -13,7 +13,7 @@
   font-weight: bold;
   font-size: 0.9rem;
   box-shadow: 0 3px 12px rgba(0, 0, 0, 0.2);
-  border: 2px solid #4CAF50;
+  border: 2px solid #00b679fb;
   z-index: 1000;
   transition: all 0.3s ease;
 }
@@ -25,7 +25,7 @@
 }
 
 .exercise-timer.danger {
-  border-color: #f44336;
+  border-color: #c24f4f;
   background: #ffebee;
   animation: pulse 0.5s infinite;
 }

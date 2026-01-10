@@ -35,7 +35,9 @@
   font-size: 1.4em;
   margin: 0;
   padding: 15px;
-  background: linear-gradient(135deg, #7d92ff 0%, #b975e0 100%);
+  background: linear-gradient(0deg,
+    rgb(155, 68, 136) 37%,
+    rgb(187, 103, 166) 100%);
   border-radius: 12px;
   color: white;
   font-weight: 500;
@@ -58,21 +60,21 @@
 }
 
 .translation-input:focus {
-  background: #d7f5ff;
-  border: 2px solid #5cdbfc;
+  background: #e0eaff;
+  border: 2px solid #4A85C5;
   outline: none;
 }
 
 .translation-input.correct {
-  border-color: #59cc01;
-  background: #f2ffe9;
-  color: #59cc01;
+  border-color: #00b679fb;
+  background: #e7fff7fb;
+  color: #00b679fb;
 }
 
 .translation-input.incorrect {
-  border-color: #e74c3c;
-  background: #ffe9e7;
-  color: #e74c3c;
+  border-color: #c24f4f;
+  background: #fde4e4;
+  color: #c24f4f;
 }
 
 .translation-input::placeholder {
@@ -92,7 +94,7 @@
 .exercise-container.translation .check-button {
   width: 100%;
   padding: 16px;
-  background: linear-gradient(135deg, #4dc7ff 0%, #26b3eb 100%);
+  background: linear-gradient(180deg, #4A85C5 0%, #1f67b4 60%, #2a64a7 100%);
   color: white;
   border: none;
   border-radius: 10px;

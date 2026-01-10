@@ -44,7 +44,9 @@
 /* Palavras individuais (arrastáveis) */
 .word-order-item {
   padding: 12px 16px;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(0deg,
+    rgb(155, 68, 136) 37%,
+    rgb(187, 103, 166) 100%);
   color: white;
   border: 3px solid transparent;
   border-radius: 8px;
@@ -59,16 +61,16 @@
 /* QUANDO ESTÁ SEGURANDO/SELECIONADO */
 .word-order-item:active {
   cursor: grabbing;
-  background: #d7f5ff;
-  border: 2px solid #5cdbfc;
+  background: #e0eaff;
+  border: 2px solid #4A85C5;
   color: #333;
   transform: scale(0.95);
 }
 
 /* ESTADO DURANTE O ARRASTE (enquanto está sendo movido) */
 .word-order-item.dragging {
-  background: #d7f5ff !important;
-  border: 2px solid #5cdbfc !important;
+  background: #e0eaff !important;
+  border: 2px solid #4A85C5 !important;
   color: #333 !important;
   transform: scale(0.95);
   z-index: 1000;
@@ -92,13 +94,15 @@
 }
 
 .sentence-area::before {
-  background: #d7f5ff;
-  border: 2px solid #5cdbfc;
+  background: #e0eaff;
+  border: 2px solid #4A85C5;
 }
 
 .word-order-item.selected {
-  background: linear-gradient(135deg, #7d92ff 0%, #b975e0 100%);
-  border: 2px solid #7d92ff;
+  background: linear-gradient(0deg,
+    rgb(155, 68, 136) 37%,
+    rgb(187, 103, 166) 100%);
+  border: 2px solid #a3328b;
   color: #333;
   transform: scale(1.05);
 }
@@ -107,7 +111,9 @@
 .sentence-slot {
   padding: 10px 14px;
   min-height: 50px;
-  background: linear-gradient(135deg, #7d92ff 0%, #b975e0 100%);
+  background: linear-gradient(0deg,
+    rgb(146, 64, 128) 37%,
+    rgb(226, 130, 202) 100%);
   color: white;
   border-radius: 12px;
   font-weight: 600;
@@ -136,40 +142,40 @@
 }
 
 .sentence-preview.show-correct {
-  background: #e8f5e8;
-  border: 2px solid #4CAF50;
+  background: #e7fff7fb;
+  border: 2px solid #00b679fb;
 }
 
 .correct-answer {
-  color: #59cc01;
+  color: #00b679fb;
   font-weight: 600;
 }
 
 .correct-answer strong {
-  color: #59cc01;
-  border: #59cc01 2px solid;
+  color: #00b679fb;
+  /* border: #00b679fb 2px solid; */
 }
 
 /* Estados de feedback */
 .sentence-slot.correct {
-  border: #59cc01 2px solid;
-  background: linear-gradient(135deg, #f2ffe9 0%, #f2ffe9 100%);
+  border: #00b679fb 2px solid;
+  background: linear-gradient(135deg, #e7fff7fb 0%, #e7fff7fb 100%);
   transform: scale(1.05);
-  color: #59cc01;
+  color: #00b679fb;
 }
 
 .sentence-slot.incorrect {
-  border: #e74c3c 2px solid;
-  background: linear-gradient(135deg, #ffe9e7 0%, #ffe9e7 100%);
+  border: #c24f4f 2px solid;
+  background: linear-gradient(135deg, #fde4e4 0%, #fde4e4 100%);
   animation: shake 0.5s ease;
-  color: #e74c3c;
+  color: #c24f4f;
 }
 
 /* Botão de verificação */
 .exercise-container.word-order .check-button {
   width: 100%;
   padding: 16px;
-  background: linear-gradient(135deg, #4dc7ff 0%, #26b3eb 100%);
+  background: linear-gradient(180deg, #4A85C5 0%, #1f67b4 60%, #2a64a7 100%);
   color: white;
   border: none;
   border-radius: 10px;

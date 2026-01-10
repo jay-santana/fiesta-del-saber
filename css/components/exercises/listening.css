@@ -25,7 +25,9 @@
 
 /* Área do player de áudio */
 .audio-player-section {
-  background: linear-gradient(135deg, #4dc7ff 0%, #26b3eb 100%);
+  background: linear-gradient(0deg,
+    rgb(155, 68, 136) 37%,
+    rgb(187, 103, 166) 100%);
   border-radius: 12px;
   padding: 15px;
   margin-bottom: 20px;
@@ -121,46 +123,46 @@
   cursor: pointer;
   display: flex;
   align-items: center;
-  gap: 15px;
+  gap: 12px;
   transition: all 0.3s ease;
   font-size: 1.1em;
   font-weight: 500;
-  line-height: 1.5;
+  /* line-height: 1.5; */
 }
 
 /* HOVER - IGUAL AO TRANSLATION-INPUT */
 .listening-option:hover {
-  background: #d7f5ff;
-  border: 3px solid #5cdbfc;
+  background: #e0eaff;
+  border: 2px solid #4A85C5;
   transform: translateY(-2px);
 }
 
 /* SELECTED - IGUAL AO TRANSLATION-INPUT FOCUS */
 .listening-option.selected {
-  background: #d7f5ff;
-  border: 3px solid #5cdbfc;
+  background: #e0eaff;
+  border: 2px solid #4A85C5;
   transform: scale(1.02);
 }
 
 /* CORRECT - EXATAMENTE IGUAL AO TRANSLATION-INPUT.CORRECT */
 .listening-option.correct {
-  border-color: #59cc01;
-  background: #f2ffe9;
+  border-color: #00b679fb;
+  background: #e7fff7fb;
 }
 
 .listening-option.correct .option-text {
-  color: #59cc01;
+   color: #00b679fb;
   font-weight: 600;
 }
 
 /* INCORRECT - EXATAMENTE IGUAL AO TRANSLATION-INPUT.INCORRECT */
 .listening-option.incorrect {
-  border-color: #e74c3c;
-  background: #ffe9e7;
+  border-color: #c24f4f;
+  background: #fde4e4;
 }
 
 .listening-option.incorrect .option-text {
-  color: #e74c3c;
+  color: #c24f4f;
   font-weight: 600;
 }
 
@@ -175,7 +177,7 @@
 .exercise-container.listening-exercise .check-button {
   width: 100%;
   padding: 16px;
-  background: linear-gradient(135deg, #4dc7ff 0%, #26b3eb 100%);
+  background: linear-gradient(180deg, #4A85C5 0%, #1f67b4 60%, #2a64a7 100%);
   color: white;
   border: none;
   border-radius: 10px;
@@ -183,7 +185,7 @@
   font-weight: 600;
   cursor: pointer;
   transition: all 0.3s ease;
-  margin-top: 15px;
+  margin-top: 10px;
   text-transform: uppercase;
   letter-spacing: 0.8px;
 }
@@ -372,7 +374,7 @@
   }
 
   .listening-options-container {
-    gap: 10px;
+    gap: 6px;
     margin: 25px 0;
   }
 
@@ -384,7 +386,7 @@
   .exercise-container.listening-exercise .check-button {
     padding: 16px;
     font-size: 1.1em;
-    margin-top: 20px;
+    margin-top: 5px;
   }
 }
 

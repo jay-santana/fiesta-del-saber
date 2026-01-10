@@ -50,7 +50,9 @@
   text-align: center;
   margin: 0 0 20px 0;
   padding: 15px;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(0deg,
+    rgb(155, 68, 136) 37%,
+    rgb(187, 103, 166) 100%);
   color: white;
   border-radius: 12px;
   font-size: 1.1em;
@@ -62,8 +64,8 @@
 /* ITENS DE PALAVRAS */
 .word-item {
   padding: 12px;
-  background: #d7f5ff;
-  border: 2px solid #5cdbfc;
+  background: #e0eaff;
+  border: 2px solid #4A85C5;
   border-radius: 12px;
   cursor: grab;
   transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
@@ -79,23 +81,23 @@
 }
 
 .word-item:hover {
-  background: #d7f5ff;
-  border: 2px solid #5cdbfc;
+  background: #e0eaff;
+  border: 2px solid #4A85C5;
   transform: scale(1.02);
 }
 
 /* QUANDO ESTÁ SEGURANDO/SELECIONADO */
 .word-item:active {
   cursor: grabbing;
-  background: #d7f5ff;
-  border: 2px solid #5cdbfc;
+  background: #e0eaff;
+  border: 2px solid #4A85C5;
   transform: scale(0.98);
 }
 
 .word-item.dragging {
   transform: scale(0.95);
-  background: #d7f5ff !important;
-  border: 2px solid #5cdbfc !important;
+  background: #e0eaff !important;
+  border: 2px solid #4A85C5 !important;
   color: #333 !important;
   z-index: 1000;
   cursor: grabbing !important;
@@ -121,16 +123,16 @@
 }
 
 .translation-slot.correct {
-  border-color: #59cc01;
-  background: linear-gradient(135deg, #f2ffe9 0%, #f2ffe9 100%);
-  color: #59cc01;
+  border-color: #00b679fb;
+  background: linear-gradient(135deg, #e7fff7fb 0%, #e7fff7fb 100%);
+  color: #00b679fb;
   box-shadow: 0 4px 12px rgba(39, 174, 96, 0.15);
 }
 
 .translation-slot.incorrect {
-  border-color: #e74c3c;
-  background: linear-gradient(135deg, #ffe9e7 0%, #ffe9e7 100%);
-  color: #e74c3c;
+  border-color: #c24f4f;
+  background: linear-gradient(135deg, #fde4e4 0%, #fde4e4 100%);
+  color: #c24f4f;
   box-shadow: 0 4px 12px rgba(231, 76, 60, 0.15);
   animation: shake 0.5s ease-in-out;
 }
@@ -138,8 +140,8 @@
 /* PALAVRA COLOCADA NO SLOT */
 .matched-word {
   padding: 0px;
-  background: #d7f5ff;
-  border: 2px solid #5cdbfc;
+  background: #e0eaff;
+  border: 2px solid #4A85C5;
   border-radius: 10px;
   font-size: 1.15em;
   font-weight: 500;
@@ -151,14 +153,14 @@
 
 .matched-word.correct {
   border: none;
-  background: linear-gradient(135deg, #f2ffe9 0%, #f2ffe9 100%);
-  color: #59cc01;
+  background: linear-gradient(135deg, #e7fff7fb 0%, #e7fff7fb 100%);
+  color: #00b679fb;
 }
 
 .matched-word.incorrect {
   border: none;
-  background: linear-gradient(135deg, #ffe9e7 0%, #ffe9e7 100%);
-  color: #e74c3c;
+  background: linear-gradient(135deg, #fde4e4 0%, #fde4e4 100%);
+  color: #c24f4f;
 }
 
 /* ANIMAÇÃO DE ERRO */
@@ -182,7 +184,7 @@
 .exercise-container.word-match .check-button {
   width: 100%;
   padding: 16px;
-  background: linear-gradient(135deg, #4dc7ff 0%, #26b3eb 100%);
+  background: linear-gradient(180deg, #4A85C5 0%, #1f67b4 60%, #2a64a7 100%);
   color: white;
   border: none;
   border-radius: 12px;

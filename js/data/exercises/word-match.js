@@ -3,198 +3,189 @@ const WORD_MATCH_TYPE = {
   name: "Combinação de Palavras",
   image: "...",
   objects: [
-    // === ILHA DOS NÚMEROS ===
-    // FÁCIL - Numbers
+    // === ISLA DE NÚMEROS ===
+    // FÁCIL - Números
     {
       pairs: [
-        { word: "One", translation: "Um" },
-        { word: "Two", translation: "Dois" },
-        { word: "Three", translation: "Três" },
-        { word: "Four", translation: "Quatro" },
+        { word: "Uno", translation: "Um" },
+        { word: "Dos", translation: "Dois" },
+        { word: "Tres", translation: "Três" },
+        { word: "Cuatro", translation: "Quatro" },
       ],
       difficulty: "easy",
       island: "numbers",
     },
     {
       pairs: [
-        { word: "Five", translation: "Cinco" },
-        { word: "Six", translation: "Seis" },
-        { word: "Seven", translation: "Sete" },
-        { word: "Eight", translation: "Oito" },
+        { word: "Cinco", translation: "Cinco" },
+        { word: "Seis", translation: "Seis" },
+        { word: "Siete", translation: "Sete" },
+        { word: "Ocho", translation: "Oito" },
       ],
       difficulty: "easy",
       island: "numbers",
     },
     {
       pairs: [
-        { word: "Nine", translation: "Nove" },
-        { word: "Ten", translation: "Dez" },
-        { word: "Zero", translation: "Zero" },
-        { word: "Many", translation: "Muitos" },
+        { word: "Nueve", translation: "Nove" },
+        { word: "Diez", translation: "Dez" },
+        { word: "Cero", translation: "Zero" },
+        { word: "Muchos", translation: "Muitos" },
       ],
       difficulty: "easy",
       island: "numbers",
     },
 
-    // MÉDIO - Numbers
+    // MEDIO - Números
     {
       pairs: [
-        { word: "Eleven", translation: "Onze" },
-        { word: "Twelve", translation: "Doze" },
-        { word: "Thirteen", translation: "Treze" },
-        { word: "Fourteen", translation: "Catorze" },
+        { word: "Once", translation: "Onze" },
+        { word: "Doce", translation: "Doze" },
+        { word: "Trece", translation: "Treze" },
+        { word: "Catorce", translation: "Catorze" },
       ],
       difficulty: "medium",
       island: "numbers",
     },
     {
       pairs: [
-        { word: "Twenty", translation: "Vinte" },
-        { word: "Thirty", translation: "Trinta" },
-        { word: "Fifty", translation: "Cinquenta" },
-        { word: "Hundred", translation: "Cem" },
-      ],
-      difficulty: "medium",
-      island: "numbers",
-    },
-    {
-      pairs: [
-        { word: "First", translation: "Primeiro" },
-        { word: "Second", translation: "Segundo" },
-        { word: "Third", translation: "Terceiro" },
+        { word: "Veinte", translation: "Vinte" },
+        { word: "Treinta", translation: "Trinta" },
+        { word: "Cincuenta", translation: "Cinquenta" },
+        { word: "Cien", translation: "Cem" },
       ],
       difficulty: "medium",
       island: "numbers",
     },
 
-    // DIFÍCIL - Numbers
+    // DIFÍCIL - Números
     {
       pairs: [
-        { word: "Plus", translation: "Mais" },
-        { word: "Minus", translation: "Menos" },
-        { word: "Equal", translation: "Igual" },
-        { word: "Number", translation: "Número" },
+        { word: "Más", translation: "Mais" },
+        { word: "Menos", translation: "Menos" },
+        { word: "Igual", translation: "Igual" },
+        { word: "Número", translation: "Número" },
       ],
       difficulty: "hard",
       island: "numbers",
     },
     {
       pairs: [
-        { word: "Pair", translation: "Par" },
-        { word: "Single", translation: "Único" },
-        { word: "Few", translation: "Poucos" },
-        { word: "Several", translation: "Vários" },
+        { word: "Par", translation: "Par" },
+        { word: "Único", translation: "Único" },
+        { word: "Pocos", translation: "Poucos" },
+        { word: "Varios", translation: "Vários" },
       ],
       difficulty: "hard",
       island: "numbers",
     },
     {
       pairs: [
-        { word: "Add", translation: "Somar" },
-        { word: "Subtract", translation: "Subtrair" },
-        { word: "Multiply", translation: "Multiplicar" },
-        { word: "Divide", translation: "Dividir" },
-        { word: "Result", translation: "Resultado" },
+        { word: "Sumar", translation: "Somar" },
+        { word: "Restar", translation: "Subtrair" },
+        { word: "Multiplicar", translation: "Multiplicar" },
+        { word: "Dividir", translation: "Dividir" },
+        { word: "Resultado", translation: "Resultado" },
       ],
       difficulty: "hard",
       island: "numbers",
     },
 
-    // === ILHA DOS VERBOS ===
-    // FÁCIL - Verbs
+    // === ISLA DE VERBOS ===
+    // FÁCIL - Verbos
     {
       pairs: [
-        { word: "Run", translation: "Correr" },
-        { word: "Jump", translation: "Pular" },
-        { word: "Play", translation: "Brincar" },
-        { word: "Eat", translation: "Comer" },
+        { word: "Correr", translation: "Correr" },
+        { word: "Saltar", translation: "Pular" },
+        { word: "Jugar", translation: "Brincar" },
+        { word: "Comer", translation: "Comer" },
       ],
       difficulty: "easy",
       island: "verbs",
     },
     {
       pairs: [
-        { word: "Sleep", translation: "Dormir" },
-        { word: "Drink", translation: "Beber" },
-        { word: "Read", translation: "Ler" },
-        { word: "Write", translation: "Escrever" },
+        { word: "Dormir", translation: "Dormir" },
+        { word: "Beber", translation: "Beber" },
+        { word: "Leer", translation: "Ler" },
+        { word: "Escribir", translation: "Escrever" },
       ],
       difficulty: "easy",
       island: "verbs",
     },
     {
       pairs: [
-        { word: "Sing", translation: "Cantar" },
-        { word: "Dance", translation: "Dançar" },
-        { word: "Draw", translation: "Desenhar" },
-        { word: "Color", translation: "Colorir" },
+        { word: "Cantar", translation: "Cantar" },
+        { word: "Bailar", translation: "Dançar" },
+        { word: "Dibujar", translation: "Desenhar" },
+        { word: "Colorear", translation: "Colorir" },
       ],
       difficulty: "easy",
       island: "verbs",
     },
 
-    // MÉDIO - Verbs
+    // MEDIO - Verbos
     {
       pairs: [
-        { word: "Study", translation: "Estudar" },
-        { word: "Learn", translation: "Aprender" },
-        { word: "Ask", translation: "Perguntar" },
-        { word: "Answer", translation: "Responder" },
-        { word: "Listen", translation: "Ouvir" },
+        { word: "Estudiar", translation: "Estudar" },
+        { word: "Aprender", translation: "Aprender" },
+        { word: "Preguntar", translation: "Perguntar" },
+        { word: "Responder", translation: "Responder" },
+        { word: "Escuchar", translation: "Ouvir" },
       ],
       difficulty: "medium",
       island: "verbs",
     },
     {
       pairs: [
-        { word: "Watch", translation: "Assistir" },
-        { word: "See", translation: "Ver" },
-        { word: "Look", translation: "Olhar" },
-        { word: "Find", translation: "Encontrar" },
-        { word: "Show", translation: "Mostrar" },
+        { word: "Mirar", translation: "Assistir" },
+        { word: "Ver", translation: "Ver" },
+        { word: "Mirar", translation: "Olhar" },
+        { word: "Encontrar", translation: "Encontrar" },
+        { word: "Mostrar", translation: "Mostrar" },
       ],
       difficulty: "medium",
       island: "verbs",
     },
     {
       pairs: [
-        { word: "Walk", translation: "Andar" },
-        { word: "Stop", translation: "Parar" },
-        { word: "Go", translation: "Ir" },
-        { word: "Come", translation: "Vir" },
-        { word: "Stay", translation: "Ficar" },
+        { word: "Caminar", translation: "Andar" },
+        { word: "Parar", translation: "Parar" },
+        { word: "Ir", translation: "Ir" },
+        { word: "Venir", translation: "Vir" },
+        { word: "Quedarse", translation: "Ficar" },
       ],
       difficulty: "medium",
       island: "verbs",
     },
 
-    // DIFÍCIL - Verbs
+    // DIFÍCIL - Verbos
     {
       pairs: [
-        { word: "Think", translation: "Pensar" },
-        { word: "Know", translation: "Saber" },
-        { word: "Remember", translation: "Lembrar" },
-        { word: "Forget", translation: "Esquecer" },
+        { word: "Pensar", translation: "Pensar" },
+        { word: "Saber", translation: "Saber" },
+        { word: "Recordar", translation: "Lembrar" },
+        { word: "Olvidar", translation: "Esquecer" },
       ],
       difficulty: "hard",
       island: "verbs",
     },
     {
       pairs: [
-        { word: "Help", translation: "Ajudar" },
-        { word: "Share", translation: "Compartilhar" },
-        { word: "Take", translation: "Pegar" },
-        { word: "Carry", translation: "Carregar" },
+        { word: "Ayudar", translation: "Ajudar" },
+        { word: "Compartir", translation: "Compartilhar" },
+        { word: "Tomar", translation: "Pegar" },
+        { word: "Llevar", translation: "Carregar" },
       ],
       difficulty: "hard",
       island: "verbs",
     },
     {
       pairs: [
-        { word: "Start", translation: "Começar" },
-        { word: "Finish", translation: "Terminar" },
-        { word: "Continue", translation: "Continuar" },
-        { word: "Try", translation: "Tentar" },
+        { word: "Comenzar", translation: "Começar" },
+        { word: "Terminar", translation: "Terminar" },
+        { word: "Continuar", translation: "Continuar" },
+        { word: "Intentar", translation: "Tentar" },
       ],
       difficulty: "hard",
       island: "verbs",

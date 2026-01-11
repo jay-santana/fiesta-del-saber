@@ -3,118 +3,118 @@ const TRANSLATION_TYPE = {
   name: "Exercício de Tradução",
   image: "...",
   objects: [
-    // === ILHA DOS NÚMEROS ===
+    // === ISLA DE NÚMEROS ===
 
     {
-      question: "One",
+      question: "Uno",
       answer: "Um",
       difficulty: "easy",
       island: "numbers",
     },
     {
-      question: "Two",
+      question: "Dos",
       answer: "Dois",
       difficulty: "easy",
       island: "numbers",
     },
     {
-      question: "Three",
+      question: "Tres",
       answer: "Três",
       difficulty: "easy",
       island: "numbers",
     },
 
     {
-      question: "Four",
+      question: "Cuatro",
       answer: "Quatro",
       difficulty: "medium",
       island: "numbers",
     },
     {
-      question: "Five",
+      question: "Cinco",
       answer: "Cinco",
       difficulty: "medium",
       island: "numbers",
     },
     {
-      question: "Six",
+      question: "Seis",
       answer: "Seis",
       difficulty: "medium",
       island: "numbers",
     },
 
     {
-      question: "Seven",
+      question: "Siete",
       answer: "Sete",
       difficulty: "hard",
       island: "numbers",
     },
     {
-      question: "Eight",
+      question: "Ocho",
       answer: "Oito",
       difficulty: "hard",
       island: "numbers",
     },
     {
-      question: "Nine",
+      question: "Nueve",
       answer: "Nove",
       difficulty: "hard",
       island: "numbers",
     },
 
-    // === ILHA DOS VERBOS ===
+    // === ISLA DE VERBOS ===
     {
-      question: "Run",
+      question: "Correr",
       answer: "Correr",
       difficulty: "easy",
       island: "verbs",
     },
     {
-      question: "Eat",
+      question: "Comer",
       answer: "Comer",
       difficulty: "easy",
       island: "verbs",
     },
     {
-      question: "Play",
+      question: "Jugar",
       answer: "Jogar",
       difficulty: "easy",
       island: "verbs",
     },
 
     {
-      question: "Read",
+      question: "Leer",
       answer: "Ler",
       difficulty: "medium",
       island: "verbs",
     },
     {
-      question: "Sing",
+      question: "Cantar",
       answer: "Cantar",
       difficulty: "medium",
       island: "verbs",
     },
     {
-      question: "Draw",
+      question: "Dibujar",
       answer: "Desenhar",
       difficulty: "medium",
       island: "verbs",
     },
 
     {
-      question: "Jump",
+      question: "Saltar",
       answer: "Pular",
       difficulty: "hard",
       island: "verbs",
     },
     {
-      question: "Sleep",
+      question: "Dormir",
       answer: "Dormir",
       difficulty: "hard",
       island: "verbs",
     },
     {
-      question: "Eat",
+      question: "Comer",
       answer: "Comer",
       difficulty: "hard",
       island: "verbs",

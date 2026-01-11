@@ -3,197 +3,197 @@ const PICTURE_MATCH_TYPE = {
   name: "Combinação de Imagens",
   image: "...",
   objects: [
-    // === ILHA DOS NÚMEROS ===
+    // === ISLA DE NÚMEROS ===
 
-    // FÁCIL - Numbers
+    // FÁCIL - Números
     {
       pairs: [
-        { word: "One", image: "1️⃣" },
-        { word: "Two", image: "2️⃣" },
-        { word: "Three", image: "3️⃣" },
-        { word: "Four", image: "4️⃣" },
+        { word: "Uno", image: "1️⃣" },
+        { word: "Dos", image: "2️⃣" },
+        { word: "Tres", image: "3️⃣" },
+        { word: "Cuatro", image: "4️⃣" },
       ],
       difficulty: "easy",
       island: "numbers",
     },
     {
       pairs: [
-        { word: "Five", image: "5️⃣" },
-        { word: "Six", image: "6️⃣" },
-        { word: "Seven", image: "7️⃣" },
-        { word: "Eight", image: "8️⃣" },
+        { word: "Cinco", image: "5️⃣" },
+        { word: "Seis", image: "6️⃣" },
+        { word: "Siete", image: "7️⃣" },
+        { word: "Ocho", image: "8️⃣" },
       ],
       difficulty: "easy",
       island: "numbers",
     },
     {
       pairs: [
-        { word: "Nine", image: "9️⃣" },
-        { word: "Ten", image: "🔟" },
-        { word: "Zero", image: "0️⃣" },
-        { word: "Hundred", image: "💯" },
+        { word: "Nueve", image: "9️⃣" },
+        { word: "Diez", image: "🔟" },
+        { word: "Cero", image: "0️⃣" },
+        { word: "Cien", image: "💯" },
       ],
       difficulty: "easy",
       island: "numbers",
     },
 
-    // MÉDIO - Numbers
+    // MEDIO - Números
     {
       pairs: [
-        { word: "Eleven", image: "1️⃣1️⃣" },
-        { word: "Twelve", image: "1️⃣2️⃣" },
-        { word: "Thirteen", image: "1️⃣3️⃣" },
-        { word: "Fourteen", image: "1️⃣4️⃣" },
+        { word: "Once", image: "1️⃣1️⃣" },
+        { word: "Doce", image: "1️⃣2️⃣" },
+        { word: "Trece", image: "1️⃣3️⃣" },
+        { word: "Catorce", image: "1️⃣4️⃣" },
       ],
       difficulty: "medium",
       island: "numbers",
     },
     {
       pairs: [
-        { word: "Twenty", image: "2️⃣0️⃣" },
-        { word: "Thirty", image: "3️⃣0️⃣" },
-        { word: "Forty", image: "4️⃣0️⃣" },
-        { word: "Fifty", image: "5️⃣0️⃣" },
+        { word: "Veinte", image: "2️⃣0️⃣" },
+        { word: "Treinta", image: "3️⃣0️⃣" },
+        { word: "Cuarenta", image: "4️⃣0️⃣" },
+        { word: "Cincuenta", image: "5️⃣0️⃣" },
       ],
       difficulty: "medium",
       island: "numbers",
     },
     {
       pairs: [
-        { word: "First", image: "🥇" },
-        { word: "Second", image: "🥈" },
-        { word: "Third", image: "🥉" },
+        { word: "Primero", image: "🥇" },
+        { word: "Segundo", image: "🥈" },
+        { word: "Tercero", image: "🥉" },
       ],
       difficulty: "medium",
       island: "numbers",
     },
 
-    // DIFÍCIL - Numbers
+    // DIFÍCIL - Números
     {
       pairs: [
-        { word: "Seventy", image: "7️⃣0️⃣" },
-        { word: "Eighty", image: "8️⃣0️⃣" },
-        { word: "Ninety", image: "9️⃣0️⃣" },
-        { word: "One hundred", image: "1️⃣0️⃣0️⃣" },
+        { word: "Setenta", image: "7️⃣0️⃣" },
+        { word: "Ochenta", image: "8️⃣0️⃣" },
+        { word: "Noventa", image: "9️⃣0️⃣" },
+        { word: "Cien", image: "1️⃣0️⃣0️⃣" },
       ],
       difficulty: "hard",
       island: "numbers",
     },
     {
       pairs: [
-        { word: "Thousand", image: "1️⃣0️⃣0️⃣0️⃣" },
-        { word: "two thousand", image: "2️⃣0️⃣0️⃣0️⃣" },
-        { word: "five thousand", image: "5️⃣0️⃣0️⃣0️⃣" },
-        { word: "Five hundred", image: "5️⃣0️⃣0️⃣" },
+        { word: "Mil", image: "1️⃣0️⃣0️⃣0️⃣" },
+        { word: "Dos mil", image: "2️⃣0️⃣0️⃣0️⃣" },
+        { word: "Cinco mil", image: "5️⃣0️⃣0️⃣0️⃣" },
+        { word: "Quinientos", image: "5️⃣0️⃣0️⃣" },
       ],
       difficulty: "hard",
       island: "numbers",
     },
     {
       pairs: [
-        { word: "Plus", image: "➕" },
-        { word: "Minus", image: "➖" },
-        { word: "Multiply", image: "✖️" },
-        { word: "Divide", image: "➗" },
-        { word: "Equal", image: "🟰" },
+        { word: "Más", image: "➕" },
+        { word: "Menos", image: "➖" },
+        { word: "Multiplicar", image: "✖️" },
+        { word: "Dividir", image: "➗" },
+        { word: "Igual", image: "🟰" },
       ],
       difficulty: "hard",
       island: "numbers",
     },
 
-    // === ILHA DOS VERBOS ===
+    // === ISLA DE VERBOS ===
 
-    // FÁCIL - Verbs
+    // FÁCIL - Verbos
     {
       pairs: [
-        { word: "Run - Correr", image: "🏃" },
-        { word: "Jump - Pular", image: "🤸" },
-        { word: "Swim - Nadar", image: "🏊" },
-        { word: "Dance - Dançar", image: "💃" },
+        { word: "Correr", image: "🏃" },
+        { word: "Saltar", image: "🤸" },
+        { word: "Nadar", image: "🏊" },
+        { word: "Bailar", image: "💃" },
       ],
       difficulty: "easy",
       island: "verbs",
     },
     {
       pairs: [
-        { word: "Read -  Ler", image: "📖" },
-        { word: "Write - Escrever", image: "✍️" },
-        { word: "Study - Estudar", image: "🎓" },
-        { word: "Learn - Aprender", image: "🧠" },
+        { word: "Leer", image: "📖" },
+        { word: "Escribir", image: "✍️" },
+        { word: "Estudiar", image: "🎓" },
+        { word: "Aprender", image: "🧠" },
       ],
       difficulty: "easy",
       island: "verbs",
     },
     {
       pairs: [
-        { word: "Eat - comer", image: "🍽️" },
-        { word: "Drink - Beber", image: "🥤" },
-        { word: "Sleep - Dormir", image: "😴" },
-        { word: "Wake up - Acordar", image: "⏰" },
+        { word: "Comer", image: "🍽️" },
+        { word: "Beber", image: "🥤" },
+        { word: "Dormir", image: "😴" },
+        { word: "Despertar", image: "⏰" },
       ],
       difficulty: "easy",
       island: "verbs",
     },
 
-    // MÉDIO - Verbs
+    // MEDIO - Verbos
     {
       pairs: [
-        { word: "Speak - falar", image: "🗣️" },
-        { word: "Listen - ouvir", image: "👂" },
-        { word: "Watch - Assitir", image: "👀" },
-        { word: "Think - Pensar", image: "🤔" },
+        { word: "Hablar", image: "🗣️" },
+        { word: "Escuchar", image: "👂" },
+        { word: "Mirar", image: "👀" },
+        { word: "Pensar", image: "🤔" },
       ],
       difficulty: "medium",
       island: "verbs",
     },
     {
       pairs: [
-        { word: "Work - Trabalhar", image: "💼" },
-        { word: "Travel - Viajar", image: "✈️" },
-        { word: "Drive - Dirigir", image: "🚗" },
-        { word: "Buy - Comprar", image: "🛒" },
+        { word: "Trabajar", image: "💼" },
+        { word: "Viajar", image: "✈️" },
+        { word: "Conducir", image: "🚗" },
+        { word: "Comprar", image: "🛒" },
       ],
       difficulty: "medium",
       island: "verbs",
     },
     {
       pairs: [
-        { word: "Play -  Jogar", image: "🎮" },
-        { word: "Sing - cantar", image: "🎤" },
-        { word: "Dance - Dançar", image: "💃" },
-        { word: "Paint -  Pintar", image: "🎨" },
+        { word: "Jugar", image: "🎮" },
+        { word: "Cantar", image: "🎤" },
+        { word: "Bailar", image: "💃" },
+        { word: "Pintar", image: "🎨" },
       ],
       difficulty: "medium",
       island: "verbs",
     },
 
-    // DIFÍCIL - Verbs
+    // DIFÍCIL - Verbos
     {
       pairs: [
-        { word: "Help - Ajudar", image: "🤝" },
-        { word: "Clean - Limpar", image: "🧹" },
-        { word: "Cook - Cozinhar", image: "🍳" },
-        { word: "Fix - Consertar", image: "🛠️" },
+        { word: "Ayudar", image: "🤝" },
+        { word: "Limpiar", image: "🧹" },
+        { word: "Cocinar", image: "🍳" },
+        { word: "Reparar", image: "🛠️" },
       ],
       difficulty: "hard",
       island: "verbs",
     },
     {
       pairs: [
-        { word: "Carry - Carregar", image: "📦" },
-        { word: "Build - Construir", image: "🏗️" },
-        { word: "Cut - Cortar", image: "✂️" },
-        { word: "Draw - Desenhar", image: "✏️" },
+        { word: "Llevar", image: "📦" },
+        { word: "Construir", image: "🏗️" },
+        { word: "Cortar", image: "✂️" },
+        { word: "Dibujar", image: "✏️" },
       ],
       difficulty: "hard",
       island: "verbs",
     },
     {
       pairs: [
-        { word: "Choose - Escolher", image: "🗳️" },
-        { word: "Start - Começar", image: "▶️" },
-        { word: "Finish - Finalizar ", image: "🏁" },
-        { word: "Remember - Lembrar", image: "🧠" },
+        { word: "Elegir", image: "🗳️" },
+        { word: "Comenzar", image: "▶️" },
+        { word: "Terminar", image: "🏁" },
+        { word: "Recordar", image: "🧠" },
       ],
       difficulty: "hard",
       island: "verbs",

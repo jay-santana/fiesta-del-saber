@@ -1,6 +1,6 @@
 const LISTENING_TYPE = {
   id: "listening",
-  name: "Ejercicio de Audición",
+  name: "Exercício de Audição",
   image: "...",
   objects: [
     // === FÁCIL (Nivel 1-2) ===

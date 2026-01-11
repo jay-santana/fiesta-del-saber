@@ -1,6 +1,6 @@
 const EMOJI_TYPE = {
   id: "emoji-translation",
-  name: "Ejercicio de Traducción",
+  name: "Exercício de Tradução",
   image: "...",
   objects: [
     // === FÁCIL (Nivel 1-2) ===

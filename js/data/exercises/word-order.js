@@ -18,6 +18,7 @@ const WORD_ORDER_TYPE = {
     },
     {
       words: ["tres", "Ella", "tiene", "lápices"],
+      correctOrder: ["Ella", "tiene", "tres", "lápices"],
       difficulty: "easy",
       island: "numbers",
     },

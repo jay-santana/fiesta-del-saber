@@ -1,6 +1,6 @@
 const WORD_MATCH_TYPE = {
   id: "word-match",
-  name: "Combinação de Palavras",
+  name: "Combinación de Palabras",
   image: "...",
   objects: [
     // === ISLA DE NÚMEROS ===
@@ -53,6 +53,15 @@ const WORD_MATCH_TYPE = {
         { word: "Treinta", translation: "Trinta" },
         { word: "Cincuenta", translation: "Cinquenta" },
         { word: "Cien", translation: "Cem" },
+      ],
+      difficulty: "medium",
+      island: "numbers",
+    },
+    {
+      pairs: [
+        { word: "Primero", translation: "Primeiro" },
+        { word: "Segundo", translation: "Segundo" },
+        { word: "Tercero", translation: "Terceiro" },
       ],
       difficulty: "medium",
       island: "numbers",

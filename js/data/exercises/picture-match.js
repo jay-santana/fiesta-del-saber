@@ -1,6 +1,6 @@
 const PICTURE_MATCH_TYPE = {
   id: "picture-match",
-  name: "Combinação de Imagens",
+  name: "Combinación de Imágenes",
   image: "...",
   objects: [
     // === ISLA DE NÚMEROS ===

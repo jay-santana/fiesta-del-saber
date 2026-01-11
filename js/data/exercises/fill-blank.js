@@ -1,6 +1,6 @@
 const FILL_BLANK_TYPE = {
   id: "fill-blank",
-  name: "Complete a Frase",
+  name: "Completa la Frase",
   image: "...",
   objects: [
     {

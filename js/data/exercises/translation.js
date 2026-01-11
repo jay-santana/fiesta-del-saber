@@ -1,6 +1,6 @@
 const TRANSLATION_TYPE = {
   id: "translation",
-  name: "Exercício de Tradução",
+  name: "Ejercicio de Traducción",
   image: "...",
   objects: [
     // === ISLA DE NÚMEROS ===

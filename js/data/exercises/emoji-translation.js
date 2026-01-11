@@ -1,6 +1,6 @@
 const EMOJI_TYPE = {
   id: "emoji-translation",
-  name: "Exercício de Tradução",
+  name: "Ejercicio de Traducción",
   image: "...",
   objects: [
     // === FÁCIL (Nivel 1-2) ===
@@ -21,7 +21,7 @@ const EMOJI_TYPE = {
       island: "numbers",
     },
     {
-      question: "☝️+✌️ = ?",
+      question: "4️⃣+1️⃣ = ?",
       answer: "Cinco",
       options: ["Cinco", "Cuatro", "Tres"],
       correctOption: 0,
@@ -31,7 +31,7 @@ const EMOJI_TYPE = {
 
     // === INTERMEDIO (Nivel 3-4) ===
     {
-      question: "☝️+🖐🏾 = ?",
+      question: "4️⃣+👨‍👩‍👦 = ?",
       answer: "Seis",
       options: ["Seis", "Dos", "Cuatro"],
       correctOption: 0,
@@ -39,7 +39,7 @@ const EMOJI_TYPE = {
       island: "numbers",
     },
     {
-      question: "✌🏾",
+      question: "2️⃣👨‍👩‍👦",
       answer: "Dos",
       options: ["Nueve", "Dos", "Once"],
       correctOption: 1,
@@ -65,7 +65,7 @@ const EMOJI_TYPE = {
       island: "numbers",
     },
     {
-      question: "👩🏽‍👩🏽‍👧👨🏻‍👩🏻‍👧‍👦👩🏿‍👦👨🏾‍👨🏾‍👧👩🏻‍👧‍👧",
+      question: "👨‍👩‍👧‍👦👨‍👩‍👧‍👦👨‍👩‍👧‍👦👨‍👩‍👧‍👦👨‍👩‍👧‍👦",
       answer: "Cinco familias felices",
       options: ["Cinco familias felices", "Cuatro familias", "Seis familias"],
       correctOption: 0,
@@ -81,7 +81,7 @@ const EMOJI_TYPE = {
       island: "numbers",
     },
     {
-      question: "👧🏾👦🏽",
+      question: "👫👫",
       answer: "Dos amigos",
       options: ["Dos amigos", "Una hermana", "Siete días"],
       correctOption: 0,
@@ -91,7 +91,7 @@ const EMOJI_TYPE = {
 
     // === FÁCIL === verbs
     {
-      question: "👧🏽 Ella está feliz 😊",
+      question: "👧 Ela está feliz 😊",
       answer: "La niña está feliz",
       options: [
         "La niña está feliz",
@@ -103,7 +103,7 @@ const EMOJI_TYPE = {
       island: "verbs",
     },
     {
-      question: "🐱 El gato es grande",
+      question: "🐱 O gato é grande",
       answer: "El gato es grande",
       type: "multiple_choice",
       options: ["El gato es pequeño", "El gato es azul", "El gato es grande"],
@@ -113,7 +113,7 @@ const EMOJI_TYPE = {
     },
 
     {
-      question: "👨🏾‍👩🏽‍👧 Ellos son una familia",
+      question: "👨‍👩‍👧 Eles são uma família",
       answer: "Ellos son una familia",
       options: [
         "Ellos son una familia",
@@ -126,7 +126,7 @@ const EMOJI_TYPE = {
     },
 
     {
-      question: "📖 Es un libro",
+      question: "📖 É um livro",
       answer: "Es un libro",
       type: "multiple_choice",
       options: ["Es una pelota", "Es un libro", "Es una silla"],
@@ -136,7 +136,7 @@ const EMOJI_TYPE = {
     },
 
     {
-      question: "🏃 Él corre",
+      question: "🏃 Ele corre",
       answer: "Él corre",
       type: "multiple_choice",
       options: ["Él duerme", "Él corre", "Él canta"],
@@ -145,7 +145,7 @@ const EMOJI_TYPE = {
       island: "verbs",
     },
     {
-      question: "👧 Ella come 🍎",
+      question: "👧 Ela come 🍎",
       answer: "Ella come",
       type: "multiple_choice",
       options: ["Ella come", "Ella duerme", "Ella salta"],
@@ -154,7 +154,7 @@ const EMOJI_TYPE = {
       island: "verbs",
     },
     {
-      question: "🔴 La pelota es roja",
+      question: "🔴 A bola é vermelha",
       answer: "La pelota es roja",
       type: "multiple_choice",
       options: ["La pelota es roja", "La pelota es azul", "La pelota es verde"],

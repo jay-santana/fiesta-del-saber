@@ -21,7 +21,7 @@ const EMOJI_TYPE = {
       island: "numbers",
     },
     {
-      question: "4️⃣+1️⃣ = ?",
+      question: "☝️+✌️ = ?",
       answer: "Cinco",
       options: ["Cinco", "Cuatro", "Tres"],
       correctOption: 0,
@@ -31,7 +31,7 @@ const EMOJI_TYPE = {
 
     // === INTERMEDIO (Nivel 3-4) ===
     {
-      question: "4️⃣+👨‍👩‍👦 = ?",
+      question: "☝️+🖐🏾 = ?",
       answer: "Seis",
       options: ["Seis", "Dos", "Cuatro"],
       correctOption: 0,
@@ -39,7 +39,7 @@ const EMOJI_TYPE = {
       island: "numbers",
     },
     {
-      question: "2️⃣👨‍👩‍👦",
+      question: "✌🏾",
       answer: "Dos",
       options: ["Nueve", "Dos", "Once"],
       correctOption: 1,
@@ -65,7 +65,7 @@ const EMOJI_TYPE = {
       island: "numbers",
     },
     {
-      question: "👨‍👩‍👧‍👦👨‍👩‍👧‍👦👨‍👩‍👧‍👦👨‍👩‍👧‍👦👨‍👩‍👧‍👦",
+      question: "👩🏽‍👩🏽‍👧👨🏻‍👩🏻‍👧‍👦👩🏿‍👦👨🏾‍👨🏾‍👧👩🏻‍👧‍👧",
       answer: "Cinco familias felices",
       options: ["Cinco familias felices", "Cuatro familias", "Seis familias"],
       correctOption: 0,
@@ -81,7 +81,7 @@ const EMOJI_TYPE = {
       island: "numbers",
     },
     {
-      question: "👫👫",
+      question: "👧🏾👦🏽",
       answer: "Dos amigos",
       options: ["Dos amigos", "Una hermana", "Siete días"],
       correctOption: 0,
@@ -91,7 +91,7 @@ const EMOJI_TYPE = {
 
     // === FÁCIL === verbs
     {
-      question: "👧 Ella está feliz 😊",
+      question: "👧🏽 Ella está feliz 😊",
       answer: "La niña está feliz",
       options: [
         "La niña está feliz",
@@ -113,7 +113,7 @@ const EMOJI_TYPE = {
     },
 
     {
-      question: "👨‍👩‍👧 Ellos son una familia",
+      question: "👨🏾‍👩🏽‍👧 Ellos son una familia",
       answer: "Ellos son una familia",
       options: [
         "Ellos son una familia",

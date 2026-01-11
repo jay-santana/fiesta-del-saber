@@ -5,14 +5,14 @@ const WORD_ORDER_TYPE = {
   objects: [
     // === ISLA DE NÚMEROS ===
     {
-      words: ["uno", "Yo", "tengo", "pelota"],
+      words: ["una", "Yo", "tengo", "pelota"],
       correctOrder: ["Yo", "tengo", "una", "pelota"],
       difficulty: "easy",
       island: "numbers",
     },
     {
       words: ["dos", "hay", "gatos"],
-      correctOrder: ["Hay", "dos", "gatos"],
+      correctOrder: ["hay", "dos", "gatos"],
       difficulty: "easy",
       island: "numbers",
     },

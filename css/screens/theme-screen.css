@@ -484,7 +484,7 @@ h2.rainbow-text.level-screen-title {
   }
 
   h2.rainbow-text.level-screen-title {
-    margin-top: 10px;
+    margin-top: 30px;
     margin-bottom: 0px;
     font-size: 3.8em;
   }
@@ -527,22 +527,22 @@ h2.rainbow-text.level-screen-title {
   }
 
   .level-circle[data-level="1"] {
-    top: 57vh;
+    top: 54vh;
     left: 15%;
   }
 
   .level-circle[data-level="2"] {
-    top: 28vh;
+    top: 25vh;
     left: 40%;
   }
 
   .level-circle[data-level="3"] {
-    top: 49vh;
+    top: 46vh;
     left: 79%;
   }
 
   .level-circle[data-level="4"] {
-    top: 45vh;
+    top: 42vh;
     left: 153%;
   }
 
@@ -561,7 +561,7 @@ h2.rainbow-text.level-screen-title {
 /* ===== DESKTOP GRANDE (1600px+) ===== */
 @media (min-width: 1600px) {
   h2.rainbow-text.level-screen-title {
-    margin-top: 50px;
+    margin-top: 80px;
     margin-bottom: 10px;
     font-size: 4.5em;
   }
@@ -619,23 +619,23 @@ h2.rainbow-text.level-screen-title {
   }
 
   .level-circle[data-level="1"] {
-    top: 54vh;
+    top: 52vh;
     left: 23%;
   }
 
   .level-circle[data-level="2"] {
-    top: 26vh;
+    top: 27vh;
     left: 42%;
   }
 
   .level-circle[data-level="3"] {
-    top: 48vh;
-    left: 66%;
+    top: 47vh;
+    left: 67%;
   }
 
   .level-circle[data-level="4"] {
-    top: 45vh;
-    left: 110%;
+    top: 44vh;
+    left: 114%;
   }
 
   .level-circle[data-level="5"] {

@@ -328,8 +328,8 @@ h2.rainbow-text.islands-screen-title {
 /* Desktop grande (1600px+) */
 @media (min-width: 1600px) {
   h2.rainbow-text.islands-screen-title {
-    margin-top: 60px;
-    margin-bottom: 50px;
+    margin-top: 90px;
+    margin-bottom: 130px;
     font-size: 4.5em;
   }
 

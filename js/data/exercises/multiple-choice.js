@@ -3,68 +3,68 @@ const MULTIPLE_CHOICE_TYPE = {
   name: "Escolha Múltipla",
   image: "...",
   objects: [
-    // === ILHA DOS NUMEROS ===
+    // === ILHA DOS NÚMEROS ===
     {
-      question: "Como se diz 'one' em português?",
-      options: ["Um", "Dois", "Três", "Quatro"],
+      question: "Como se diz 'um' em espanhol?",
+      options: ["Uno", "Dos", "Tres", "Cuatro"],
       correctIndex: 0,
       difficulty: "easy",
       island: "numbers",
     },
     {
-      question: "Como se diz 'dez' em inglês?",
-      options: ["Ten", "Five", "Two", "Four"],
+      question: "Como se diz 'dez' em espanhol?",
+      options: ["Diez", "Cinco", "Dos", "Cuatro"],
       correctIndex: 0,
       difficulty: "easy",
       island: "numbers",
     },
     {
-      question: "Como se diz 'three' em português?",
-      options: ["Três", "Cinco", "Dois", "Quatro"],
+      question: "Como se diz 'três' em espanhol?",
+      options: ["Tres", "Cinco", "Dos", "Cuatro"],
       correctIndex: 0,
       difficulty: "easy",
       island: "numbers",
     },
 
     {
-      question: "Como se diz 'doze' em inglês?",
-      options: ["Twelve", "Twenty", "Two", "Ten"],
+      question: "Como se diz 'doze' em espanhol?",
+      options: ["Doce", "Veinte", "Dos", "Diez"],
       correctIndex: 0,
       difficulty: "medium",
       island: "numbers",
     },
     {
-      question: "Qual é 'twenty' em português?",
-      options: ["Vinte", "Treze", "Dez", "Trinta"],
+      question: "Qual é 'vinte' em espanhol?",
+      options: ["Veinte", "Trece", "Diez", "Treinta"],
       correctIndex: 0,
       difficulty: "medium",
       island: "numbers",
     },
     {
-      question: "Como se diz 'quatorze' em inglês?",
-      options: ["Fourteen", "Forty", "Four", "Twenty-four"],
+      question: "Como se diz 'catorze' em espanhol?",
+      options: ["Catorce", "Cuarenta", "Cuatro", "Veinticuatro"],
       correctIndex: 0,
       difficulty: "medium",
       island: "numbers",
     },
 
     {
-      question: "Como se diz 'trinta' em inglês?",
-      options: ["Thirty", "Thirteen", "Three", "Thirty-three"],
+      question: "Como se diz 'trinta' em espanhol?",
+      options: ["Treinta", "Trece", "Tres", "Treinta y tres"],
       correctIndex: 0,
       difficulty: "hard",
       island: "numbers",
     },
     {
-      question: "Qual é 'forty' em português?",
-      options: ["Quarenta", "Quatorze", "Quatro", "Quarenta e quatro"],
+      question: "Qual é 'quarenta' em espanhol?",
+      options: ["Cuarenta", "Catorce", "Cuatro", "Cuarenta y cuatro"],
       correctIndex: 0,
       difficulty: "hard",
       island: "numbers",
     },
     {
-      question: "Como se diz 'cinquenta' em inglês?",
-      options: ["Fifty", "Fifteen", "Five", "Five-teen"],
+      question: "Como se diz 'cinquenta' em espanhol?",
+      options: ["Cincuenta", "Quince", "Cinco", "Quince"],
       correctIndex: 0,
       difficulty: "hard",
       island: "numbers",
@@ -72,23 +72,23 @@ const MULTIPLE_CHOICE_TYPE = {
 
     // === ILHA DOS VERBOS ===
 
-    // FÁCIL - Verbs
+    // FÁCIL - Verbos
     {
-      question: "O que é 'to run' em português?",
-      options: ["Andar", "Nadar", "Correr", "Pular"],
+      question: "O que é 'correr' em espanhol?",
+      options: ["Andar", "Nadar", "Correr", "Saltar"],
       correctIndex: 2,
       difficulty: "easy",
       island: "verbs",
     },
     {
-      question: "Como se diz'comer' em inglês?",
-      options: ["To drink", "To eat", "To sleep", "To cook"],
+      question: "Como se diz 'comer' em espanhol?",
+      options: ["Beber", "Comer", "Dormir", "Cocinar"],
       correctIndex: 1,
       difficulty: "easy",
       island: "verbs",
     },
     {
-      question: "O que é 'sleep' em português?",
+      question: "O que é 'dormir' em espanhol?",
       options: ["Comer", "Beber", "Correr", "Dormir"],
       correctIndex: 3,
       difficulty: "easy",
@@ -96,45 +96,45 @@ const MULTIPLE_CHOICE_TYPE = {
     },
 
     {
-      question: "O que é 'I eat' em português?",
-      options: ["Eu bebo", "Eu durmo", "Eu como", "Eu corro"],
+      question: "O que é 'eu como' em espanhol?",
+      options: ["Yo bebo", "Yo duermo", "Yo como", "Yo corro"],
       correctIndex: 2,
       difficulty: "medium",
       island: "verbs",
     },
     {
-      question: "O que é 'she runs' em português?",
-      options: ["Ela come", "Ela dorme", "Ela bebe", "Ela corre"],
+      question: "O que é 'ela corre' em espanhol?",
+      options: ["Ella come", "Ella duerme", "Ella bebe", "Ella corre"],
       correctIndex: 3,
       difficulty: "medium",
       island: "verbs",
     },
     {
-      question: "Como se diz 'ela come' em inglês?",
-      options: ["She eats", "She sleeps", "She runs", "She jumps"],
+      question: "Como se diz 'ela come' em espanhol?",
+      options: ["Ella come", "Ella duerme", "Ella corre", "Ella salta"],
       correctIndex: 0,
       difficulty: "medium",
       island: "verbs",
     },
 
-    // DIFÍCIL - Verbs
+    // DIFÍCIL - Verbos
     {
-      question: "Qual é o passado de 'to eat'?",
-      options: ["Ate", "Eated", "Eat", "Eating"],
+      question: "Qual é o passado de 'comer' em espanhol?",
+      options: ["Comí", "Comía", "Como", "Comiendo"],
       correctIndex: 0,
       difficulty: "hard",
       island: "verbs",
     },
     {
-      question: "Qual é o passado de 'to run'?",
-      options: ["Ran", "Runned", "Run", "Running"],
+      question: "Qual é o passado de 'correr' em espanhol?",
+      options: ["Corrí", "Corría", "Corro", "Corriendo"],
       correctIndex: 0,
       difficulty: "hard",
       island: "verbs",
     },
     {
-      question: "Qual é o passado de 'to go'?",
-      options: ["Went", "Goed", "Go", "Going"],
+      question: "Qual é o passado de 'ir' em espanhol?",
+      options: ["Fui", "Iba", "Voy", "Yendo"],
       correctIndex: 0,
       difficulty: "hard",
       island: "verbs",

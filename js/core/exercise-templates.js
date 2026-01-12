@@ -70,7 +70,7 @@ const EXERCISE_TEMPLATES = {
   "fill-blank": (exercise) => {
     const content = `
       <div class="exercise-container fill-blank">
-      <div class="match-instructions">Complete com um desses: am – is – are</div>
+      <div class="match-instructions">Complete a frase com o verbo ser estar em espanhol</div>
         <div class="sentence">${exercise.sentence.replace(
           "___",
           '<span class="blank-placeholder">_____</span>'
@@ -85,7 +85,7 @@ const EXERCISE_TEMPLATES = {
             <div class="hint-section">
               <button class="hint-button">💡 Mostrar Dica</button>
               <div class="hint-content" style="display: none;">
-                <strong>Dica:</strong> ${exercise.hint}
+                <strong>Dica:</strong> ${`Use os verbos: soy - estoy - eres - somos - son - está - están - estamos </br> ${exercise.hint} `}
               </div>
             </div>
           `

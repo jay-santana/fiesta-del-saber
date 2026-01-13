@@ -134,7 +134,7 @@ h2.rainbow-text.level-screen-title {
 
 .level-circle.final-island::before {
   content: '🪇';
-  font-size: 1.5em;
+  font-size: 2em;
   display: block;
 }
 
@@ -143,7 +143,7 @@ h2.rainbow-text.level-screen-title {
 }
 
 .level-circle.final-island, .level-circle-name {
-  font-size: 0.55em;
+  font-size: 0.95em;
   color: white;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
   font-weight: bold;
@@ -193,7 +193,7 @@ h2.rainbow-text.level-screen-title {
 }
 
 .level-circle-number {
-  font-size: 1.3em;
+  font-size: 1.4em;
   margin-bottom: 2px;
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
   font-weight: 800;
@@ -201,7 +201,7 @@ h2.rainbow-text.level-screen-title {
 }
 
 .level-circle-name {
-  font-size: 0.55em;
+  font-size: 0.8em;
   opacity: 0.95;
   line-height: 1.1;
   font-weight: 600;
